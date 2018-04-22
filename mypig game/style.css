@@ -1,0 +1,109 @@
+.{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+	background-image:linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url('back.jpg');
+	background-size: cover;
+	background-position: center;
+
+	height: 100vh;
+}
+.container{
+	margin: 50px auto;
+	height: 75%;
+
+	background-color: red;
+
+}
+#row1{
+	height: 100%;
+
+
+}
+#row2{
+	height: 100%
+}
+.col-lg-12{
+	height: 100%;
+}
+#col1{
+	height: 100%;
+	background-color: #F0FFF0;
+
+}
+#col2{
+	background-color: lightgrey;
+	height: 100%;
+}
+#player-name{
+	float: none;
+	opacity: 0.7;
+	text-shadow: 1px 1px;
+	margin: 100px auto;
+
+}
+#score1{
+	float: none;
+	background-color: transparent;
+	margin: 0 auto;
+	text-align: center;
+}
+#player-2{
+	float: none;
+	text-shadow: 1px 1px;
+	opacity: 0.7;
+	margin: 100px auto;
+
+}
+#score2{
+	float: none;
+	background-color: transparent;
+	margin: 0px auto;
+	text-align: center;
+}
+#dice-image{
+	 position: absolute;
+    left: 46%;
+    top: 200px;
+    
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+
+}
+#button1{
+	position: absolute;
+	left: 44%;
+	top: 100px;
+}
+#button2{
+	position: absolute;
+	left: 46%;
+	top: 350px;
+}
+#button3{
+	position: absolute;
+	left: 46%;
+	top: 425px;
+}
+#current1{
+	float: none;
+	margin: 70px auto;
+	text-align: center;
+	
+	background-color: #FFE4E5;
+	z-index: 2;
+	height: 80px;
+	width: 110px;
+}
+#current2{
+	float: none;
+	margin: 70px auto;
+	text-align: center;
+	z-index: 20;
+
+	background-color: #FFE4E5;
+	height: 80px;
+	width: 110px;
+}
