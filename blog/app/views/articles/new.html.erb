@@ -1,0 +1,23 @@
+<h1> List your items for sale here </h1>
+<p><%= form_with scope: :article, url: articles_path, local: true do |form| %>
+    <p>
+        Name of the 
+      <%= form.label :donor   %> : 
+      <%= form.text_field :title %>
+    </p>
+    <br>
+    <p>
+        Food articles being
+      <%= form.label :offered %>:<br>
+      <%= form.text_area :text %>
+    </p>
+    <p>
+          Mobile 
+      <%= form.label :number %>  :  
+      <%= form.text_field :number %>
+    </p>
+   
+    <p>
+      <%= form.submit %>
+    </p>
+  <% end %></p>
